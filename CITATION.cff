@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Awesome AI Learning Resources"
+message: "If you use this resource collection in your work, please cite it as below."
+type: software
+authors:
+  - given-names: Ming-H
+    github: https://github.com/Ming-H
+repository-code: "https://github.com/Ming-H/awesome-ai-learning"
+url: "https://github.com/Ming-H/awesome-ai-learning"
+license: MIT
+abstract: >
+  A curated collection of high-quality learning resources for AI,
+  covering Prompt Engineering, AI Agents, MCP, RAG, LLM Fundamentals,
+  AI Coding Tools, AI Safety, and AGI.
+keywords:
+  - ai
+  - machine-learning
+  - llm
+  - prompt-engineering
+  - ai-agents
+  - mcp
+  - rag
+  - awesome-list
+  - learning-resources
