@@ -4,8 +4,10 @@
 
 - [MCP Official Docs](https://modelcontextprotocol.io) - MCP 协议权威参考：概念、教程、SDK 参考和传输协议。 `Docs` `EN`
 - [MCP Specification](https://spec.modelcontextprotocol.io) - MCP 协议正式规范文档。 `Spec` `EN`
-- [MCP Specification 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) - 最新规范，新增安全改进和结构化输出支持。 `Spec` `EN`
+- [MCP Specification 2025-06-18](https://modelcontextprotocol.io/specification/2025-06-18) - 新增安全改进和结构化输出支持。 `Spec` `EN`
+- [MCP Specification 2025-11-25 (One Year Anniversary)](https://modelcontextprotocol.io/specification/2025-11-25) - 一周年版本，新增 Tool Annotations（安全标记：只读/破坏性）、OAuth 支持、JSON-RPC 2.0 完善。 `Spec` `EN`
 - [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/build-with-claude/mcp) - Anthropic 官方 Claude + MCP 使用指南。 `Docs` `EN`
+- [One Year of MCP: Anniversary Blog](https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/) - MCP 一周年总结，GitHub、Hugging Face 等平台已构建官方 MCP Server。 `Blog` `EN`
 
 ## Official GitHub
 
@@ -19,6 +21,12 @@
 - [awesome-mcp-servers-2](https://github.com/patriksimek/awesome-mcp-servers-2) - 补充性 MCP 服务器精选列表。 `Repo` `EN`
 - [mcpservers.org](https://mcpservers.org/) - MCP 服务器浏览与发现网站。 `Directory` `EN`
 - [MCPMarket Leaderboards](https://mcpmarket.com/leaderboards) - GitHub Star Top 100 MCP 服务器排行榜。 `Directory` `EN`
+
+## Development & Auth
+
+- [MCP Auth/OAuth Updates (2025.06) - Auth0](https://auth0.com/blog/mcp-specs-update-all-about-auth/) - OAuth Resource Servers、RFC 8707 Resource Indicators，生产环境部署关键安全更新。 `Article` `EN`
+- [Stop Hard-Coding AI Tools: The 2026 Guide to MCP](https://medium.com/@kapildevkhatik2/stop-hard-coding-ai-tools-the-2026-guide-to-model-context-protocol-mcp-5d25fabff608) - 从零用 Python 构建 MCP Server 的实战教程。 `Article` `EN`
+- [MCP Cheat Sheet (2026)](https://www.webfuse.com/mcp-cheat-sheet) - 快速参考：架构、原语、JSON-RPC 传输、SDK 快速入门。 `Article` `EN`
 
 ## Chinese Tutorials
 

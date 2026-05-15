@@ -12,6 +12,16 @@
 - [Sequoia: 2026 This is AGI](https://sequoiacap.com/article/2026-this-is-agi/) - 红杉资本观点：长程编码 Agent 已功能等同于 AGI。 `Article` `EN`
 - [80,000 Hours: What Happened with AGI Timelines?](https://80000hours.substack.com/p/what-the-hell-happened-with-agi-timelines) - AGI 时间线在 2025 年如何剧烈变化的深度分析。 `Article` `EN`
 
+## Technical Paradigm Shifts
+
+- [Andrej Karpathy: 2025 LLM Year in Review](https://karpathy.bearblog.dev/year-in-review-2025/) - RLVR 取代 RLHF 成为新训练范式，通往 AGI 路径上的关键转折。指出 LLM 潜力只开发了不到 10%。 `Article` `EN`
+- [2025 AAAI Presidential Panel: Scaling Doubts](https://aaai.org/about-aaai/aaai-awards/) - 76% 的 AI 研究者怀疑仅靠 scaling 能否实现 AGI，需要根本性算法创新。重要的反共识声音。 `Research` `EN`
+
+## Industry Perspectives
+
+- [Google: Responsible Path to AGI (2025)](https://blog.google/innovation-and-ai/products/2025-research-breakthroughs/) - Google 的 8 大研究突破领域，包括通往 AGI 的路径。 `Blog` `EN`
+- [OpenAI: Automated AI Research Roadmap](https://openai.com/index/introducing-gpt-4-1/) - OpenAI 的 AGI 路线图：自动化 AI 研究能力为近期里程碑。 `Blog` `EN`
+
 ## Chinese Resources
 
 - [WaytoAGI 飞书知识库](https://waytoagi.feishu.cn/) - 中国最大 AI 学习社区（~900 万学习者），全面的学习路径和资源。 `Community` `ZH`
@@ -25,5 +35,7 @@
 |-------|----------|-------|
 | Overview | WEF Report + DeepMind Blog | AGI 全球政策与安全框架 |
 | Timelines | Sequoia + 80,000 Hours + LessWrong | AGI 时间线预测与演变 |
+| Paradigm Shift | Karpathy 2025 Review (RLVR) + AAAI Panel | 技术范式变化与反共识 |
+| Industry | Google + OpenAI 路线图 | 主要实验室的 AGI 路径 |
 | Chinese Context | WaytoAGI + 知乎学习路线 | 中文生态与本土化学习 |
 | Deep Dive | 0voice AI Learning Journey | 系统化 AI/ML/DL 学习 |

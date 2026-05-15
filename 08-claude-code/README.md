@@ -27,6 +27,22 @@
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) - 专注 Claude Code hooks 精通的仓库。 `Repo` `EN`
 - [Anthropic Academy: Build with Claude](https://www.anthropic.com/learn/build-with-claude) - Anthropic 学习中心，含教程和最佳实践。 `Learning Hub` `EN`
 
+## Skills Ecosystem
+
+- [Best Claude Code Skills to Try in 2026 - Firecrawl](https://www.firecrawl.dev/blog/best-claude-code-skills) - 13 个实用 Skills：网页数据、UI 质量、性能、安全、Agent 编排。 `Article` `EN`
+- [10 Must-Have Skills for Claude and Any Coding Agent in 2026](https://medium.com/@unicodeveloper/10-must-have-skills-for-claude-and-any-coding-agent-in-2026-b5451b013051) - 改变 Claude Code、Cursor、Gemini CLI 表现的必备 Skills。 `Article` `EN`
+- [Claude Code Skills vs Hooks: What's the Difference? - MindStudio](https://www.mindstudio.ai/blog/claude-code-skills-vs-hooks-difference/) - Skills 和 Hooks 的使用场景区分。 `Article` `EN`
+
+## Hooks & Automation
+
+- [Claude Code Hooks: The Complete PM Guide](https://medium.com/all-about-claude/claude-code-hooks-the-complete-pm-guide-nobody-wrote-until-now-2026-f287cb1b2c32) - 实战 Hooks：Slack 通知、自动保存、CI/CD 触发。 `Article` `EN`
+- [Claude Hooks Reference 2026](https://claudskills.com/skills/claude-hooks-reference-2026/) - 完整 Hook 事件、匹配器、退出码、JSON 输出参考。 `Article` `EN`
+
+## CLAUDE.md Configuration
+
+- [CLAUDE.md Best Practices](https://code.claude.com/docs/en/claude-md) - 官方文档中关于 CLAUDE.md 项目配置文件的说明，最具影响力的自定义机制。 `Docs` `EN`
+- [How to Write a Great CLAUDE.md](https://www.anthropic.com/engineering/claude-code-best-practices) - Anthropic 工程团队的 CLAUDE.md 编写最佳实践。 `Blog` `EN`
+
 ## Learning Path
 
 | Stage | Resource | Focus |

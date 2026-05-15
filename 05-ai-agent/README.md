@@ -31,6 +31,10 @@
 - [Official Documentation](https://pydantic.dev/docs/ai/overview/) | [中文文档](https://ai.pydantic.org.cn/) - 类型安全的 Python Agent 框架，2025 年 9 月达到 V1 稳定版。 `Docs` `EN/ZH`
 - [GitHub](https://github.com/pydantic/pydantic-ai)
 
+### A2A Protocol (Agent-to-Agent)
+- [Google A2A Protocol](https://github.com/google/A2A) - Google 提出的 Agent 间通信开放协议，支持跨框架 Agent 协作。 `Protocol` `EN`
+- [A2A Official Docs](https://google.github.io/A2A/) - 协议规范、交互模式和集成指南。 `Docs` `EN`
+
 ## Courses
 
 ### Free Courses

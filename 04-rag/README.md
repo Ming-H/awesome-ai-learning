@@ -49,7 +49,6 @@
 ## Architecture & Advanced Techniques
 
 - [8 RAG Architectures You Should Know - Humanloop](https://humanloop.com/blog/rag-architectures) - Simple RAG、Branched RAG、HyDE 等 8 种架构模式。 `Article` `EN`
-- [RAG Techniques You Must Know 2025 - Towards AI](https://pub.towardsai.net/rag-techniques-you-must-know-in-2025-872b074da20a) - Contextual Retrieval、Agentic RAG、Hybrid Retrieval。 `Article` `EN`
 - [Hybrid Search and Re-Ranking - Towards DS](https://towardsdatascience.com/hybrid-search-and-re-ranking-in-production-rag/) - 混合搜索 + 重排序对比分析。 `Article` `EN`
 - [9 Advanced RAG Techniques - Meilisearch](https://www.meilisearch.com/blog/rag-techniques) - 智能分块到上下文蒸馏全面指南。 `Article` `EN`
 
@@ -58,6 +57,17 @@
 - [RAGAS](https://github.com/explodinggradients/ragas) - 专为 RAG 设计的评估框架（Faithfulness、Answer Relevance 等）。 `Repo` `EN`
 - [TruLens](https://www.trulens.org/getting_started/core_concepts/rag_triad/) - LLM 可观测性框架，核心是 RAG Triad。 `Framework` `EN`
 
+## Knowledge Graph RAG
+
+- [Microsoft GraphRAG](https://github.com/microsoft/graphrag) - 知识图谱增强的 RAG，从文本语料自动构建知识图谱，支持多跳推理和全局摘要。 `Repo` `EN`
+- [Microsoft GraphRAG Official Docs](https://microsoft.github.io/graphrag/) - GraphRAM 官方文档，包含架构设计和使用指南。 `Docs` `EN`
+- [GraphRAG Research Paper](https://www.microsoft.com/en-us/research/project/graphrag/) - 微软研究院 GraphRAG 项目主页和论文。 `Research` `EN`
+
+## Agentic RAG
+
+- [RAG Techniques You Must Know 2025 - Towards AI](https://pub.towardsai.net/rag-techniques-you-must-know-in-2025-872b074da20a) - Contextual Retrieval、Agentic RAG、Hybrid Retrieval。 `Article` `EN`
+- [Agentic RAG: The 2026 Guide](https://weaviate.io/blog/agentic-rag) - Agent 动态决定何时/如何检索，2025-2026 最重要的 RAG 趋势。 `Article` `EN`
+
 ## Learning Path
 
 | Stage | Resource | Focus |
@@ -65,4 +75,6 @@
 | Beginner | DeepLearning.AI RAG Fundamentals + PromptingGuide 中文版 | RAG 核心概念 |
 | Hands-on | langchain-ai/rag-from-scratch + LlamaIndex 文档 | 动手构建 RAG |
 | Advanced | Advanced RAG 课程 + Anthropic Contextual Retrieval | 高级检索技术 |
+| Knowledge Graph | Microsoft GraphRAG + 官方文档 | 知识图谱增强的多跳推理 |
+| Agentic | Agentic RAG 指南 + RAG Techniques 2025 | Agent 驱动的动态检索 |
 | Production | Google Cloud 参考架构 + RAGAS 评估 | 生产级部署与评估 |

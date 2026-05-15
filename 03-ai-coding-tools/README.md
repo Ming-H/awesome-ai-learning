@@ -57,6 +57,19 @@
 - [Vibe Coding Best Practices - Towards DS](https://towardsdatascience.com/vibe-coding-with-ai-best-practices-for-human-ai-collaboration-in-software-development/) - 加速 AI 编程同时保持控制。 `Article` `EN`
 - [Vibe Coding Guide 2026 - Appwrite](https://appwrite.io/blog/post/the-complete-vibe-coding-guide-2025) - 从构想到部署的实用指南。 `Article` `EN`
 
+## Vibe Coding
+
+- [Andrej Karpathy: Vibe Coding (Original)](https://x.com/karpathy/status/1886192184808149383) - "Vibe Coding" 概念起源，"fully give in to the vibes, embrace exponentials"。 `Article` `EN`
+- [MIT Technology Review: What Is Vibe Coding?](https://www.technologyreview.com/2025/04/16/1115135/what-is-vibe-coding-exactly/) - 权威解读：通过 Prompt 与代码库交互，工程师角色变为对话者。 `Article` `EN`
+- [Google Cloud: What Is Vibe Coding](https://cloud.google.com/discover/what-is-vibe-coding) - Google 官方 Vibe Coding 指南，从自然语言到部署的完整范式。 `Article` `EN`
+- [taskade/awesome-vibe-coding](https://github.com/taskade/awesome-vibe-coding) - Vibe Coding 最全面的 awesome-list：工具、框架、最佳实践。 `Repo` `EN`
+- [10 Best Vibe Coding Tools 2026 - Roadmap.sh](https://roadmap.sh/vibe-coding/best-tools) - Cursor、Claude Code、Lovable、Bolt 全面对比。 `Article` `EN`
+
+### Chinese
+- [Datawhale vibe-vibe](https://github.com/datawhalechina/vibe-vibe) - 首个系统性中文 Vibe Coding 开源教程，零基础从创意到全栈项目。 `Repo` `ZH`
+- [Datawhale easy-vibe](https://github.com/datawhalechina/easy-vibe) - 面向初学者的 Vibe Coding 学习地图，可视化分步教程。 `Repo` `ZH`
+- [Vibe Coding 中文教程 - tukuaiai](https://github.com/tukuaiai/vibe-coding-cn) - 从想法到需求、技术设计、任务拆解、编码、测试、部署、Code Review 全流程。 `Repo` `ZH`
+
 ## GitHub Repositories
 
 - [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - `.cursorrules` 文件精选集合，自定义 Cursor 行为。 `Repo` `EN`
@@ -70,4 +83,6 @@
 | Beginner | Cursor 官方文档 + B站教程 | 工具安装与基本使用 |
 | Intermediate | Copilot 文档 + awesome-cursorrules | 高级配置与自定义 |
 | Comparison | 知乎/CSDN 对比文章 | 选择适合的工具 |
-| Advanced | Vibe Coding 最佳实践 + 开源工具 | 优化开发工作流 |
+| Vibe Coding | Karpathy 原推 + MIT Tech Review + awesome-vibe-coding | AI 原生开发范式 |
+| Chinese | Datawhale vibe-vibe + vibe-coding-cn | 中文 Vibe Coding 实战 |
+| Advanced | 开源工具 (Cline/Aider/Continue) | 优化开发工作流 |
