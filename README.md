@@ -46,6 +46,7 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 
 ## Trending / What's New
 
+- 2026-05: Expanded Inference Optimization: vLLM deployment, batch inference (Ray Data), PagedAttention deep dive, 25+ new resources
 - 2026-05: Added Anthropic Academy (17 free courses), Agent Memory & Evaluation sections, DeerFlow/Mastra frameworks
 - 2026-05: Added MCP official courses (Anthropic Skilljar, DeepLearning.AI), DeepSeek V4, Sora, OWASP Agentic AI
 - 2026-05: Added new 11 Multimodal AI category (VLM, Image/Video Gen, Multimodal RAG, Audio)
@@ -77,9 +78,9 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 
 ### 02 LLM Fundamentals
 
-[📁 Full Resources](./02-llm-fundamentals/) · 50+ resources
+[📁 Full Resources](./02-llm-fundamentals/) · 80+ resources
 
-大模型原理、微调、推理优化、评估基准和生产部署 / LLM architecture, fine-tuning, inference, evaluation, benchmarking, and production deployment.
+大模型原理、微调、推理优化、批量推理、评估基准和生产部署 / LLM architecture, fine-tuning, inference optimization, batch inference, evaluation, and production deployment.
 
 **⭐ Editor's Picks:**
 - [Andrej Karpathy: Neural Networks Zero to Hero](https://karpathy.ai/zero-to-hero.html) - Widely considered the best starting point for deep learning and LLM fundamentals. `Video Course` `EN`
