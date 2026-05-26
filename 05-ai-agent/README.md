@@ -31,6 +31,17 @@
 - [Official Documentation](https://pydantic.dev/docs/ai/overview/) | [中文文档](https://ai.pydantic.org.cn/) - 类型安全的 Python Agent 框架，2025 年 9 月达到 V1 稳定版。 `Docs` `EN/ZH`
 - [GitHub](https://github.com/pydantic/pydantic-ai)
 
+### Anthropic Academy
+- [Anthropic Academy (17 Free Courses)](https://anthropic.skilljar.com/) - Anthropic 官方学习平台，17 门免费认证课程，覆盖 Claude Code、Agent SDK、MCP、Subagents、安全等。2026 年 4 月更新。 `Free Course` `EN`
+- [MCP: Build Rich-Context AI Apps with Anthropic - DeepLearning.AI](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) - 与 Anthropic 联合出品，涵盖多 Agent 架构、MCP Registry API、服务发现与认证。 `Free Course` `EN`
+
+### DeerFlow
+- [DeerFlow (ByteDance)](https://github.com/bytedance/DeerFlow) - 字节跳动开源多 Agent 协作框架，支持深度研究和报告生成。 `Framework` `ZH/EN`
+
+### Mastra
+- [Mastra](https://mastra.ai/) - TypeScript Agent 框架，2026 年新秀，支持工作流编排、RAG 集成和 Agent 评估。 `Framework` `EN`
+- [Mastra GitHub](https://github.com/mastra-inc/mastra)
+
 ### A2A Protocol (Agent-to-Agent)
 - [Google A2A Protocol](https://github.com/google/A2A) - Google 提出的 Agent 间通信开放协议，支持跨框架 Agent 协作。 `Protocol` `EN`
 - [A2A Official Docs](https://google.github.io/A2A/) - 协议规范、交互模式和集成指南。 `Docs` `EN`
@@ -43,6 +54,7 @@
 - [AI Agents for Beginners - Microsoft Learn](https://learn.microsoft.com/en-us/shows/ai-agents-for-beginners/) - 10 节免费视频课，从概念到代码。 `Free Course` `EN`
 - [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) - 12 节免费课程配套仓库。 `GitHub` `EN`
 - [Hugging Face AI Agents Course](https://huggingface.co/learn/agents-course) - Hugging Face 官方免费课程。 `Free Course` `EN`
+- [Agentic AI with LangGraph, CrewAI, AutoGen and BeeAI - Coursera](https://www.coursera.org/learn/agentic-ai-with-langgraph-crewai-autogen-and-beeai) - 系统学习 Agentic 设计原则与编排策略的结构化课程。 `Paid Course` `EN`
 - [LangGraph 0.4 Full 8-Hour Course](https://www.youtube.com/watch?v=Y3dbzuQBnUw) - YouTube 免费完整教程（~75K 播放）。 `Video` `EN`
 
 ### Paid Courses
@@ -59,6 +71,14 @@
 - [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) - 500 个 Agent 用例集合，适合找灵感。 `Repo` `EN`
 - [mkassaf/langgraph-complete-guide](https://github.com/mkassaf/langgraph-complete-guide) - LangGraph 从入门到多 Agent 系统的 Python 示例。 `Repo` `EN`
 
+## Agent Memory
+
+- [Mem0](https://github.com/mem0ai/mem0) - Agent 记忆层，支持短期和长期记忆管理，25k+ stars。 `Repo` `EN`
+- [MemGPT / Letta](https://github.com/letta-ai/letta) - 有状态 LLM Agent 框架，通过虚拟上下文管理实现无限上下文窗口。 `Repo` `EN`
+- [LangChain Memory](https://python.langchain.com/docs/concepts/memory/) - LangChain 官方记忆模块，支持多种记忆策略。 `Docs` `EN`
+- [Zep](https://github.com/getzep/zep) - 面向 AI Agent 的长期记忆服务，支持自动知识提取和结构化记忆。 `Repo` `EN`
+- [Agent Memory 完全指南 2026](https://mem0.ai/research/a-survey-on-the-memory-mechanism-of-large-language-model-based-agents) - 基于学术综述的 Agent 记忆机制全景分析。 `Article` `EN`
+
 ## Architecture & Patterns
 
 - [Agentic Design Patterns (Free e-Book)](https://assets.jimmysong.io/books/agentic-design-patterns-zh-20251208.pdf) - Agent 架构模式系统化覆盖，核心原则：多专精 Agent 协作优于单一大 Agent。 `PDF` `ZH`
@@ -67,6 +87,16 @@
 - [AI Agent Frameworks 2026: Production Ranking](https://alicelabs.ai/en/insights/best-ai-agent-frameworks-2026) - 生产就绪度排名：LangGraph #1, Claude Agent SDK #2。 `Article` `EN`
 - [Google ADK Multi-Agent Patterns](https://developers.googleblog.com/developers-guide-to-multi-agent-patterns-in-adk/) - 8 种多 Agent 设计模式。 `Article` `EN`
 - [2025 LLM Agent Framework Complete Guide (HackMD)](https://hackmd.io/@BASHCAT/S12Y61lEZg) - AutoGen/CrewAI/LangGraph 对比与混合策略。 `Article` `ZH`
+- [DeepSeek V3.2: Reasoning-First Models for Agents](https://api-docs.deepseek.com/news/news251201) - DeepSeek V3.2 定位为 Agent 优先的推理模型，V4 Preview 支持百万 token 上下文。 `Article` `EN`
+- [2026: The Year of AI Agents - PIIE](https://www.piie.com/blogs/realtime-economics/2026/how-ai-boom-shrugged-deepseek-shock-and-keeps-gaining-steam) - 2026 被定义为 Agent 元年，Claude Code、DeepSeek 等 Agent 工具崛起。 `Article` `EN`
+
+## Agent Evaluation
+
+- [SWE-bench](https://www.swebench.com/) - 编码 Agent 权威基准测试：在真实 GitHub Issues 上评估 Agent 修复 Bug 的能力。 `Benchmark` `EN`
+- [AgentBench](https://github.com/THUDM/AgentBench) - 清华大学多维度 Agent 评估框架，覆盖操作系统、数据库、Web 浏览等场景。 `Repo` `EN`
+- [WebArena](https://webarena.dev/) - 真实 Web 环境中的 Agent 自主任务完成度评测。 `Benchmark` `EN`
+- [τ-bench: Evaluating AI Agents on Conversational Task Fulfillment](https://github.com/Aditya1001001/tau-bench) - 对话式任务完成的 Agent 评估基准。 `Repo` `EN`
+- [How to Evaluate AI Agents](https://www.anthropic.com/research/building-effective-agents) - Anthropic 官方关于 Agent 评估方法论的研究。 `Article` `EN`
 
 ## Learning Path
 
@@ -77,3 +107,5 @@
 | Architecture | 设计模式电子书 + 框架对比 | 多 Agent 架构设计 |
 | Production | Zero To Mastery + 知乎 6 周课程 | 生产部署实践 |
 | Advanced | MCP 协议 + Claude/OpenAI Agent SDK | 工具集成与协议标准 |
+| Memory | MemGPT + Mem0 + Zep | Agent 记忆管理机制 |
+| Evaluation | SWE-bench + AgentBench + WebArena | Agent 能力评估与基准测试 |

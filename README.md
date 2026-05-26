@@ -7,7 +7,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Ming-H/awesome-ai-learning)](https://github.com/Ming-H/awesome-ai-learning/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-**300+ curated resources across 11 categories / 300+ 精选资源，覆盖 11 大方向**
+**350+ curated resources across 11 categories / 350+ 精选资源，覆盖 11 大方向**
 
 AI learning resources curated for developers and researchers, from prompt engineering
 fundamentals to advanced AI agent development, RAG systems, and the path toward AGI.
@@ -46,6 +46,8 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 
 ## Trending / What's New
 
+- 2026-05: Added Anthropic Academy (17 free courses), Agent Memory & Evaluation sections, DeerFlow/Mastra frameworks
+- 2026-05: Added MCP official courses (Anthropic Skilljar, DeepLearning.AI), DeepSeek V4, Sora, OWASP Agentic AI
 - 2026-05: Added new 11 Multimodal AI category (VLM, Image/Video Gen, Multimodal RAG, Audio)
 - 2026-05: Added LLM Evaluation & Benchmarking section (Chatbot Arena, HELM, HF Leaderboard, DeepEval)
 - 2026-05: Added Production Deployment & Observability section (Langfuse, SGLang)
@@ -74,8 +76,6 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 - [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/prompt-engineering-guide) - 66k+ stars, the most authoritative repo. `Repo` `EN`
 
 ### 02 LLM Fundamentals
-
-[📁 Full Resources](./02-llm-fundamentals/) · 35+ resources
 
 [📁 Full Resources](./02-llm-fundamentals/) · 50+ resources
 
@@ -116,9 +116,9 @@ Cursor、Copilot、Windsurf 等 AI 编程工具 / AI-powered coding tools: Curso
 
 ### 05 AI Agent
 
-[📁 Full Resources](./05-ai-agent/) · 30+ resources
+[📁 Full Resources](./05-ai-agent/) · 45+ resources
 
-Agent 框架、课程和架构模式 / Agent frameworks, courses, and architecture patterns.
+Agent 框架、课程、架构模式、记忆和评估 / Agent frameworks, courses, architecture patterns, memory, and evaluation.
 
 **⭐ Editor's Picks:**
 - [Agentic AI - DeepLearning.AI (Andrew Ng)](https://www.deeplearning.ai/courses/agentic-ai) - Four core agent design patterns. `Free Course` `EN`
@@ -138,9 +138,9 @@ Agent 框架、课程和架构模式 / Agent frameworks, courses, and architectu
 
 ### 07 MCP
 
-[📁 Full Resources](./07-mcp/) · 25+ resources
+[📁 Full Resources](./07-mcp/) · 30+ resources
 
-MCP 协议文档、教程和服务器生态 / MCP protocol documentation, tutorials, and server ecosystem.
+MCP 协议文档、官方课程、教程和服务器生态 / MCP protocol documentation, official courses, tutorials, and server ecosystem.
 
 **⭐ Editor's Picks:**
 - [MCP Official Docs](https://modelcontextprotocol.io) - The authoritative reference for the protocol. `Docs` `EN`
@@ -211,7 +211,7 @@ AGI 研究、时间线和政策报告 / AGI research, timelines, and policy repo
 
 进阶 / Intermediate
   ├── 04 RAG Systems (Vector DB → GraphRAG → Agentic RAG → Multimodal RAG)
-  ├── 05 Agent Frameworks (LangGraph / OpenAI SDK / Google ADK)
+  ├── 05 Agent Frameworks (LangGraph / OpenAI SDK / Google ADK / Memory / Evaluation)
   ├── 06 Skills / Function Calling (Structured Output, Tool Evaluation)
   └── 07 MCP Protocol & Development (Tool Annotations, OAuth)
 

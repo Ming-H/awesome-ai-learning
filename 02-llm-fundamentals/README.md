@@ -64,8 +64,10 @@
 
 - [10 Best Open-Source LLMs 2025 - Hugging Face](https://huggingface.co/blog/daya-shankar/open-source-llms) - Llama 4、Qwen 3、DeepSeek、Mistral 对比。 `Article` `EN`
 - [Open-Source LLMs Compared 2026](https://till-freitag.com/blog/open-source-llm-comparison) - 25+ 开源 LLM 并排对比含吞吐量基准。 `Article` `EN`
+- [DeepSeek V4 Preview](https://deepseek.com/en/) - 百万 token 上下文，更强 Agent 能力，开源推理模型最新一代。 `Model` `EN`
+- [Qwen 3.5 (Alibaba)](https://qwenlm.github.io/blog/) - 通义千问最新版，中文能力持续领先，MoE 架构。 `Model` `ZH/EN`
 
-**Key Model Families:** Llama 4 (Meta) | DeepSeek R1/V3 | Qwen 3/3.5 (Alibaba) | Mistral | Gemma 3 (Google)
+**Key Model Families:** Llama 4 (Meta) | DeepSeek R1/V3/V4 | Qwen 3/3.5 (Alibaba) | Mistral | Gemma 3 (Google)
 
 ## Key Framework Repositories
 

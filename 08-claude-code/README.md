@@ -26,6 +26,8 @@
 
 - [disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) - 专注 Claude Code hooks 精通的仓库。 `Repo` `EN`
 - [Anthropic Academy: Build with Claude](https://www.anthropic.com/learn/build-with-claude) - Anthropic 学习中心，含教程和最佳实践。 `Learning Hub` `EN`
+- [Anthropic Academy](https://anthropic.skilljar.com/) - Anthropic 官方学习平台，17 门免费认证课程，覆盖 Claude Code、Agent SDK、MCP、Subagents 等。2026 年 4 月更新。 `Learning Hub` `EN`
+- [Anthropic Learn Hub](https://www.anthropic.com/learn) - Anthropic 综合学习资源中心，含指南、教程和最佳实践。 `Learning Hub` `EN`
 
 ## Skills Ecosystem
 

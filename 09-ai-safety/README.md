@@ -61,6 +61,7 @@
 - [Anthropic Interpretability Research](https://www.anthropic.com/research/team/interpretability) - 机制可解释性研究。 `Research` `EN`
 - [Anthropic Alignment Science Blog](https://alignment.anthropic.com) - Anthropic 对齐科学研究团队博客，涵盖欺骗检测、推理链监控等。 `Blog` `EN`
 - [The Urgency of Interpretability - Dario Amodei](https://www.darioamodei.com/post/the-urgency-of-interpretability) - Anthropic CEO 阐述可解释性的重要性。 `Article` `EN`
+- [OWASP Agentic AI Security Risks](https://genai.owasp.org/) - OWASP 针对 Agentic AI 的最新安全风险指南，覆盖 Agent 特有的攻击面。 `Standard` `EN`
 
 ## GitHub Repositories
 

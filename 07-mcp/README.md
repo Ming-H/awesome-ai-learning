@@ -9,6 +9,14 @@
 - [Anthropic MCP Docs](https://docs.anthropic.com/en/docs/build-with-claude/mcp) - Anthropic 官方 Claude + MCP 使用指南。 `Docs` `EN`
 - [One Year of MCP: Anniversary Blog](https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/) - MCP 一周年总结，GitHub、Hugging Face 等平台已构建官方 MCP Server。 `Blog` `EN`
 
+## Official Courses
+
+- [Introduction to Model Context Protocol - Anthropic Skilljar](https://anthropic.skilljar.com/introduction-to-model-context-protocol) - Anthropic 官方免费 MCP 课程，讲解如何将 Claude 连接到外部服务和数据源。 `Free Course` `EN`
+- [MCP: Build Rich-Context AI Apps with Anthropic - DeepLearning.AI](https://www.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic) - 与 Anthropic 联合出品的结构化课程，涵盖多 Agent 架构、MCP Registry API、服务发现、授权与认证。 `Free Course` `EN`
+- [Building Agents with Model Context Protocol - YouTube](https://www.youtube.com/watch?v=kQmXtrmQ5Zg) - Anthropic MCP 创作者主讲的工作坊，含 Claude Agent SDK 实战。 `Video` `EN`
+- [Building Secure AI Agents with MCP - YouTube](https://www.youtube.com/watch?v=KiNyvT02HJM) - 39 分钟编码教程，演示如何构建 Claude 与外部工具的安全连接。 `Video` `EN`
+- [Anthropic Academy (17 Free Courses)](https://anthropic.skilljar.com/) - Anthropic 官方学习平台，17 门免费认证课程，包含多门 MCP 相关内容。2026 年 4 月更新。 `Free Course` `EN`
+
 ## Official GitHub
 
 - [modelcontextprotocol (GitHub Organization)](https://github.com/modelcontextprotocol) - 所有官方 MCP SDK（Python, TypeScript, Java, C# 等）。 `Official Repo` `EN`
@@ -41,6 +49,7 @@
 | Stage | Resource | Focus |
 |-------|----------|-------|
 | Beginner | MCP Official Docs + 知乎入门教程 | 协议概念与原理 |
+| Course | Anthropic Skilljar MCP + DeepLearning.AI 课程 | 系统学习 MCP 原理与开发 |
 | Hands-on | 官方 Reference Servers | 理解服务器实现 |
 | Development | SDK 文档 (Python/TypeScript) | 开发自定义 MCP 服务器 |
 | Ecosystem | awesome-mcp-servers + MCPMarket | 发现和评估可用服务器 |
