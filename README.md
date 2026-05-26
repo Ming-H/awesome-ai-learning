@@ -7,13 +7,14 @@
 [![Last Commit](https://img.shields.io/github/last-commit/Ming-H/awesome-ai-learning)](https://github.com/Ming-H/awesome-ai-learning/commits/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-**350+ curated resources across 11 categories / 350+ 精选资源，覆盖 11 大方向**
+**400+ curated resources across 12 categories / 400+ 精选资源，覆盖 12 大方向**
 
 AI learning resources curated for developers and researchers, from prompt engineering
-fundamentals to advanced AI agent development, RAG systems, and the path toward AGI.
+fundamentals to advanced AI agent development, RAG systems, LLM inference deployment,
+and the path toward AGI.
 
 为开发者和研究者精选的 AI 学习资源合集，从提示工程基础到高级 AI Agent 开发、
-RAG 系统构建，直至通向 AGI 的前沿研究。
+RAG 系统构建、大模型推理部署，直至通向 AGI 的前沿研究。
 
 [English](#contents) | [中文](#分类目录)
 
@@ -33,6 +34,7 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
   - [05 AI Agent](#05-ai-agent)
   - [06 Skills / Function Calling](#06-skills--function-calling)
   - [07 MCP](#07-mcp)
+  - [12 LLM Inference & Deployment](#12-llm-inference--deployment)
 - [Advanced / 高级](#advanced--高级)
   - [08 Claude Code](#08-claude-code)
   - [09 AI Safety & Alignment](#09-ai-safety--alignment)
@@ -46,6 +48,7 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 
 ## Trending / What's New
 
+- 2026-05: New 12 LLM Inference & Deployment category (vLLM, PagedAttention, batch inference, production observability)
 - 2026-05: Expanded Inference Optimization: vLLM deployment, batch inference (Ray Data), PagedAttention deep dive, 25+ new resources
 - 2026-05: Added Anthropic Academy (17 free courses), Agent Memory & Evaluation sections, DeerFlow/Mastra frameworks
 - 2026-05: Added MCP official courses (Anthropic Skilljar, DeepLearning.AI), DeepSeek V4, Sora, OWASP Agentic AI
@@ -78,9 +81,9 @@ RAG 系统构建，直至通向 AGI 的前沿研究。
 
 ### 02 LLM Fundamentals
 
-[📁 Full Resources](./02-llm-fundamentals/) · 80+ resources
+[📁 Full Resources](./02-llm-fundamentals/) · 50+ resources
 
-大模型原理、微调、推理优化、批量推理、评估基准和生产部署 / LLM architecture, fine-tuning, inference optimization, batch inference, evaluation, and production deployment.
+大模型原理、微调、评估基准和分布式训练 / LLM architecture, fine-tuning, evaluation, benchmarking, and distributed training.
 
 **⭐ Editor's Picks:**
 - [Andrej Karpathy: Neural Networks Zero to Hero](https://karpathy.ai/zero-to-hero.html) - Widely considered the best starting point for deep learning and LLM fundamentals. `Video Course` `EN`
@@ -149,6 +152,18 @@ MCP 协议文档、官方课程、教程和服务器生态 / MCP protocol docume
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - 62k+ stars, community MCP server collection. `Repo` `EN`
 - [Claude MCP 完全攻略 - 掘金](https://juejin.cn/post/7526766150803488795) - Most comprehensive Chinese MCP guide (2025). `Article` `ZH`
 
+### 12 LLM Inference & Deployment
+
+[📁 Full Resources](./12-llm-inference/) · 35+ resources
+
+大模型推理优化、vLLM 部署、批量推理和生产可观测性 / LLM inference optimization, vLLM deployment, batch inference, and production observability.
+
+**⭐ Editor's Picks:**
+- [vLLM: Efficient Memory Management for LLM Serving (arXiv)](https://arxiv.org/pdf/2309.06180) - The original PagedAttention paper, foundation of all vLLM optimizations. `Paper` `EN`
+- [Introl: vLLM Production Deployment](https://introl.com/blog/vllm-production-deployment-inference-serving-architecture) - Stripe achieved 73% inference cost reduction with vLLM. `Article` `EN`
+- [Anyscale: Ray Data LLM 2x Throughput](https://www.anyscale.com/blog/ray-data-llm-2x-throughput-vs-vllm) - Ray Data LLM doubles throughput vs synchronous vLLM for batch inference. `Article` `EN`
+- [PagedAttention from First Principles](https://hamzaelshafie.bearblog.dev/paged-attention-from-first-principles-a-view-inside-vllm/) - Understanding PagedAttention, the key to vLLM's performance. `Article` `EN`
+
 ---
 
 ## Advanced / 高级
@@ -214,7 +229,8 @@ AGI 研究、时间线和政策报告 / AGI research, timelines, and policy repo
   ├── 04 RAG Systems (Vector DB → GraphRAG → Agentic RAG → Multimodal RAG)
   ├── 05 Agent Frameworks (LangGraph / OpenAI SDK / Google ADK / Memory / Evaluation)
   ├── 06 Skills / Function Calling (Structured Output, Tool Evaluation)
-  └── 07 MCP Protocol & Development (Tool Annotations, OAuth)
+  ├── 07 MCP Protocol & Development (Tool Annotations, OAuth)
+  └── 12 LLM Inference & Deployment (vLLM / Batch Inference / Production)
 
 高级 / Advanced
   ├── 08 Claude Code (Skills, Hooks, Agent SDK, CLAUDE.md)
