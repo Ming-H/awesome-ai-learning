@@ -2,6 +2,14 @@
 
 ## Reports & Policy
 
+### 2026 Industry Reports
+
+- [Stanford HAI: 2026 AI Index Report](https://hai.stanford.edu/ai-index/2026-ai-index-report) | [PDF](https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf) - 最全面的年度 AI 趋势报告，被全球政府引用。覆盖研发、技术性能、经济、教育、政策和治理。 `Report` `EN`
+- [State of AI Agents 2026 -- RyanHub Research](https://zzhiyuann.github.io/state-of-ai-agents/) | [Source](https://github.com/zzhiyuann/state-of-ai-agents) - 深度分析 10 个主要 Agent 框架，评估协议成熟度（MCP 8/10, A2A 6/10），Agent 在 bug 处理表现出色（74%）但功能较差（11%）。 `Report` `EN`
+- [2026 International AI Safety Report](https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026) - 第二份国际 AI 安全报告，12 家公司更新了前沿安全框架。 `Report` `EN/ZH`
+- [How People Are Using AI in 2026 (HBR)](https://hbr.org/2026/06/how-people-are-really-using-ai-in-2026) - 哈佛商业评论关于 AI 实际使用场景的调查报告。 `Article` `EN`
+- [State of AI 2026 Survey](https://github.com/jkspeaks/State-of-AI-2026-Survey) - 基于斯坦福 AI 指数报告的交互式诊断调查，帮助评估组织 AI 就绪度。 `Repo` `EN`
+
 - [WEF: Preparing for AGI (2025 Report)](https://reports.weforum.org/docs/WEF_Preparing_for_Artificial_General_Intelligence_2025.pdf) - 世界经济论坛关于全球 AGI 准备的综合政策文件。 `PDF` `EN`
 - [DeepMind: Taking a Responsible Path to AGI](https://deepmind.google/blog/taking-a-responsible-path-to-agi/) - Google DeepMind 对 AGI 安全和风险评估的探索。 `Blog` `EN`
 

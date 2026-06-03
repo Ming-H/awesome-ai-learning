@@ -15,6 +15,32 @@
 
 ## Red Teaming
 
+### Production Guardrails Frameworks
+
+> 2026 核心洞察：合适的护栏可以将 8B 模型从 53% 提升到 99% 的 Agent 任务准确率（Forge）。关键不是更大的模型，而是更好的护栏。
+
+- [Forge -- Guardrails take an 8B model from 53% to 99% on agentic tasks](https://github.com/antoinezambelli/forge) - 证明护栏比模型规模更重要的里程碑项目。提供代理服务器、WorkflowRunner 和防护中间件三种集成模式。HN 687 分。 `Repo` `EN`
+- [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - NVIDIA 开源工具包，使用 Colang 语言定义防护规则，支持输入/输出/对话/检索/执行五类防护。集成 LangChain、LlamaIndex。 `Repo` `EN`
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Python 框架，Guardrails Hub 提供 PII 检测、毒性过滤、主题执行等预构建验证器。[防护基准索引](https://index.guardrailsai.com)。 `Repo` `EN`
+- [Sponsio -- Deterministic Runtime Enforcement for Agents](https://github.com/SponsioLabs/Sponsio) - 纯代码合约检查 Agent 操作，0.139ms 延迟，无需 LLM 调用。避免 95.6% 错位，支持 LangChain/Claude/OpenAI/Google ADK/CrewAI。 `Repo` `EN`
+- [shellfirm -- AI Coding Agent 和终端命令安全防护](https://github.com/kaplanelad/shellfirm) - 在危险 shell 命令执行前拦截，100+ 模式覆盖 9 个生态。可用作 MCP 服务器，与 Claude Code 集成。 `Repo` `EN`
+- [ArchGW -- AI Agent 智能代理](https://github.com/katanemo/archgw) - 基于 Envoy 的智能边缘代理，在 Agent 和 LLM 之间充当防护执行点——提示防护、内容策略、路由和可观察性。 `Repo` `EN`
+
+### Guardrails Tutorials & Best Practices
+
+- [NeMo Guardrails: The Missing Manual (Pinecone)](https://www.pinecone.io/learn/nemo-guardrails-intro/) - 最受欢迎的第三方教程，覆盖 Colang 语言、输入/输出防护、对话流程控制、RAG 防护和越狱防御。 `Article` `EN`
+- [agent-guardrails-template](https://github.com/TheArchitectit/agent-guardrails-template) - 为任何 LLM Agent 构建护栏结构的模板仓库，兼容 Claude/GPT/Gemini。 `Repo` `EN`
+- [Safe and Reliable AI via Guardrails - DeepLearning.AI](https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails) - 为 LLM 应用构建护栏的免费课程。 `Free Course` `EN`
+- [Chatbot Guardrails Arena](https://huggingface.co/spaces/lighthouzai/guardrails-arena) - 护栏的竞技场式评估，比较不同防护配置的有效性。 `Benchmark` `EN`
+
+### Agent Safety Research
+
+- [AgentDoG 1.5 -- AI Agent 安全诊断框架](https://github.com/AI45Lab/AgentDoG) - 上海人工智能实验室出品，三维安全分类法诊断 Agent 轨迹，提供 0.8B-8B 参数的安全审核模型。[论文 1.5](https://arxiv.org/pdf/2605.29801)。 `Repo` `EN`
+- [ToolSafe -- 工具调用安全防护](https://github.com/MurrayTom/ToolSafe) - 通过步骤级防护、主动监控和反馈驱动推理增强 Agent 工具调用安全。[论文](https://arxiv.org/abs/2601.10156)。 `Repo` `EN`
+- [AGrail -- 终身 Agent 自适应安全防护](https://github.com/SaFo-Lab/AGrail4Agent) - ACL 2025 论文，支持自适应安全检查生成、优化和跨 Agent 迁移。 `Repo` `EN`
+
+## Red Teaming (Offensive Security)
+
 ### Tools
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM 评估和红队测试开源 CLI。 `Repo` `EN`
 - [PyRIT - Microsoft](https://github.com/microsoft/PyRIT) - 微软红队测试工具，支持自动化攻击模拟。 `Repo` `EN`
@@ -75,6 +101,7 @@
 | Stage | Resource | Focus |
 |-------|----------|-------|
 | Beginner | DeepLearning.AI Guardrails 课程 + OWASP LLM Top 10 | 安全基础概念 |
+| Guardrails | Forge + NeMo Guardrails + Guardrails AI | Agent 防护框架实践 |
 | Alignment | RLHF Book Lectures + Post-Training Guide | 对齐技术栈 |
 | Cross-Lab | Anthropic-OpenAI 联合对齐评估 + Anthropic Alignment Blog | 跨实验室安全评估 |
 | Red Teaming | Promptfoo + PyRIT + Garak 实践 | 攻击模拟与测试 |

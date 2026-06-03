@@ -43,8 +43,13 @@
 - [Mastra GitHub](https://github.com/mastra-inc/mastra)
 
 ### A2A Protocol (Agent-to-Agent)
-- [Google A2A Protocol](https://github.com/google/A2A) - Google 提出的 Agent 间通信开放协议，支持跨框架 Agent 协作。 `Protocol` `EN`
-- [A2A Official Docs](https://google.github.io/A2A/) - 协议规范、交互模式和集成指南。 `Docs` `EN`
+- [Google A2A Protocol](https://github.com/google/A2A) - Google 提出的 Agent 间通信开放协议，现由 Linux Foundation 治理。24k+ stars，支持 Python/Go/JS/Java/.NET/Rust SDK。V1.0 规范已发布。 `Protocol` `EN`
+- [A2A Official Docs](https://a2a-protocol.org) - 完整协议文档：规范、核心概念、Agent 发现、企业功能、流式传输、多租户、与 MCP 协同工作。 `Docs` `EN`
+- [A2A Protocol - DeepLearning.AI 课程](https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol) - Google Cloud 和 IBM Research 联合出品，涵盖 Agent A2A 合规、客户端构建、顺序和分层工作流。 `Free Course` `EN`
+- [Waggle -- A2A Agent 搜索引擎](https://waggle.zone) - 按功能语义搜索 A2A Agent，实时健康监控、延迟跟踪，含 [Claude Code 插件](https://github.com/Waggle-AI/waggle-claude-code-plugin)。 `Platform` `EN`
+- [A2Apex -- A2A Agent 测试与认证](https://a2apex.io) - 类似 SSL Labs + npm 的 Agent 信任层，50+ 自动化合规检查，0-100 信任分数和金银铜认证。 `Platform` `EN`
+- [A2A vs MCP: Start of AI Protocol War?](https://www.koyeb.com/blog/google-a2a-anthropic-mcp-ai-agent-protocol-war) - MCP 处理垂直集成（Agent 到工具），A2A 处理水平集成（Agent 到 Agent），互补而非竞争。 `Article` `EN`
+- [Google ADK 2.0 (Agent Development Kit)](https://github.com/google/adk-python) - 20k+ stars，新增基于图的工作流运行时（扇出/扇入、循环、重试、人机协作）和 Task API。 `Repo` `EN`
 
 ## Courses
 
@@ -71,7 +76,30 @@
 - [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) - 500 个 Agent 用例集合，适合找灵感。 `Repo` `EN`
 - [mkassaf/langgraph-complete-guide](https://github.com/mkassaf/langgraph-complete-guide) - LangGraph 从入门到多 Agent 系统的 Python 示例。 `Repo` `EN`
 
-## Agent Memory
+## Context Engineering
+
+> "Context Engineering is 10x better than prompt engineering, and 100x better than vibe coding." — Cole Medin
+
+Context Engineering 是 2026 年最热的新兴学科，被视为"Prompt Engineering 2.0"。核心思想：不是写更好的提示词，而是为 Agent 构建正确的上下文系统。
+
+### Key Resources
+
+- [A Survey of Context Engineering for Large Language Models](https://arxiv.org/abs/2507.13334) - 最权威的学术综述，将 Context Engineering 定义为正式学科并提供全面分类法。 `Paper` `EN`
+- [Awesome Context Engineering](https://github.com/Meirtz/Awesome-Context-Engineering) - 精选列表，涵盖调查论文、框架和实施指南，含 2026 Agent Era Update。 `Repo` `EN/ZH`
+- [Anthropic: Building Effective AI Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic 官方关于构建可靠 AI Agent 的权威指南，核心涉及 Context Engineering 原则。 `Article` `EN`
+- [Context Engineering - LangChain Blog](https://blog.langchain.dev/context-engineering/) - LangChain 将 Context Engineering 分解为四个支柱：写入、选择、压缩、隔离上下文。 `Article` `EN`
+- [DAIR.AI: Context Engineering Guide](https://www.promptingguide.ai/agents/context-engineering) | [深度解析](https://www.promptingguide.ai/agents/context-engineering-deep-dive) - 最受认可的学习平台，从 Prompt Engineering 扩展到 Context Engineering。 `Guide` `EN`
+- [Context Engineering Intro - Cole Medin](https://github.com/coleam00/context-engineering-intro) - 13k+ stars，PRP（Product Requirement Prompt）工作流实践模板。 `Repo` `EN`
+
+### Tools & Frameworks
+
+- [Context Engineering Kit (NeoLabHQ)](https://github.com/NeoLabHQ/context-engineering-kit) - Claude Code/Cursor 高级 Context Engineering 插件集合（SDD、DDD、Reflexion 等模块）。 `Repo` `EN`
+- [fenic: Declarative Context Engineering](https://github.com/typedef-ai/fenic) - Python 声明式框架，支持提取、分块、检索、压缩和总结，核心创新是推理卸载。 `Repo` `EN`
+- [context-llemur](https://github.com/jerpint/context-llemur) - 基于 Git 的便携式上下文管理工具，支持跨 LLM 工具的持久化上下文。 `Repo` `EN`
+- [Context Space](https://github.com/context-space/context-space) - 自称首个 Context Engineering 基础设施，通过 MCP 连接 14+ 服务。 `Repo` `EN/ZH`
+- [How Claude Code Works](https://github.com/Windy3f3f3f3f/how-claude-code-works) - Claude Code 源码逆向分析，15 章详解上下文压缩（4 级渐进压缩）、工具协调、CLAUDE.md 管理。 `Repo` `ZH`
+
+### Agent Memory
 
 - [Mem0](https://github.com/mem0ai/mem0) - Agent 记忆层，支持短期和长期记忆管理，25k+ stars。 `Repo` `EN`
 - [MemGPT / Letta](https://github.com/letta-ai/letta) - 有状态 LLM Agent 框架，通过虚拟上下文管理实现无限上下文窗口。 `Repo` `EN`
@@ -103,8 +131,10 @@
 | Stage | Resource | Focus |
 |-------|----------|-------|
 | Beginner | Hugging Face + Andrew Ng Agentic AI | Agent 核心概念 |
+| Context | Anthropic Building Effective Agents + LangChain Context Engineering | 上下文工程基础 |
 | Framework | LangGraph + CrewAI 文档 | 选 1-2 个框架上手 |
 | Architecture | 设计模式电子书 + 框架对比 | 多 Agent 架构设计 |
+| Protocol | A2A 官方文档 + DeepLearning.AI 课程 + Waggle | Agent 间通信协议 |
 | Production | Zero To Mastery + 知乎 6 周课程 | 生产部署实践 |
 | Advanced | MCP 协议 + Claude/OpenAI Agent SDK | 工具集成与协议标准 |
 | Memory | MemGPT + Mem0 + Zep | Agent 记忆管理机制 |

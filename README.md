@@ -48,6 +48,10 @@ RAG 系统构建、大模型推理部署，直至通向 AGI 的前沿研究。
 
 ## Trending / What's New
 
+- 2026-06: Added Context Engineering section (survey paper, Anthropic/LangChain guides, 6+ tools/frameworks) — "Prompt Engineering 2.0"
+- 2026-06: Added Agent Guardrails section (Forge, NeMo Guardrails, Guardrails AI, Sponsio, AgentDoG) — 护栏比模型规模更重要
+- 2026-06: Expanded A2A Protocol with ecosystem tools (Waggle, A2Apex, DeepLearning.AI course, ADK 2.0)
+- 2026-06: Added 2026 Industry Reports (Stanford AI Index, State of AI Agents, HBR AI usage survey)
 - 2026-05: New 12 LLM Inference & Deployment category (vLLM, PagedAttention, batch inference, production observability)
 - 2026-05: Expanded Inference Optimization: vLLM deployment, batch inference (Ray Data), PagedAttention deep dive, 25+ new resources
 - 2026-05: Added Anthropic Academy (17 free courses), Agent Memory & Evaluation sections, DeerFlow/Mastra frameworks
