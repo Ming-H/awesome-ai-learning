@@ -69,6 +69,7 @@
 - [Datawhale vibe-vibe](https://github.com/datawhalechina/vibe-vibe) - 首个系统性中文 Vibe Coding 开源教程，零基础从创意到全栈项目。 `Repo` `ZH`
 - [Datawhale easy-vibe](https://github.com/datawhalechina/easy-vibe) - 面向初学者的 Vibe Coding 学习地图，可视化分步教程。 `Repo` `ZH`
 - [Vibe Coding 中文教程 - tukuaiai](https://github.com/tukuaiai/vibe-coding-cn) - 从想法到需求、技术设计、任务拆解、编码、测试、部署、Code Review 全流程。 `Repo` `ZH`
+- [AI全书 AI 编程专题](https://aibook.ren/categories/ai-coding) - 中文 AI 编程学习入口，覆盖 Cursor、Codex、Claude Code、工具选型、Agent 工作流和实践指南。 `Article` `ZH`
 
 ## GitHub Repositories
 
