@@ -46,6 +46,7 @@
 - [2026年AI编程工具终极横评 - CSDN](https://gitcode.csdn.net/69e102c40a2f6a37c5a0761c.html) - Cursor 3 / Claude Code / Copilot / Windsurf / Trae 多维基准。 `Article` `ZH`
 - [2026 AI编程工具红黑榜](https://chenguangliang.com/posts/blog149_ai-coding-tools-2026-review/) - 真实数据和定价对比。 `Article` `ZH`
 - [7款AI代码编辑器评测 - NXCode](https://www.nxcode.io/zh/resources/news/best-ai-code-editor-2026-cursor-windsurf-copilot-zed-compared) - Cursor #1, Windsurf #2, Claude Code #3。 `Article` `ZH`
+- [AI全书：AI 编程工具专题](https://aibook.ren/categories/ai-coding) - 中文 AI 编程学习资源合集，覆盖 Cursor、Claude Code、Codex、Agent 工作流和工具选型实践。 `Article` `ZH`
 
 ### English
 - [10 Best Vibe Coding Tools 2026 - Roadmap.sh](https://roadmap.sh/vibe-coding/best-tools) - Cursor、Claude Code、Lovable、Bolt 对比。 `Article` `EN`
