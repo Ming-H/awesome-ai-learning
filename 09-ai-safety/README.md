@@ -77,6 +77,7 @@
 - [Prompt Injection in LLMs: Complete Guide 2026](https://capturethebug.xyz/blogs/Prompt-Injection-in-LLMs-Complete-Guide-for-2026) - 真实示例和缓解策略。 `Article` `EN`
 - [OWASP LLM Top 10 2025 (Chinese)](http://owasp.org.cn/OWASP-CHINA/owasp-project/owasp-59278/) - 官方中文版本。 `Standard` `ZH`
 - [AI大模型提示词攻击防御全景指南2025](https://www.cnblogs.com/whatsay/p/19180982) - 从单点攻击到系统性风险的防御策略。 `Article` `ZH`
+- [Memory Poison Lab](https://github.com/RishabhPande/memory-poison-lab) - Synthetic Python exercises showing memory poisoning, provenance-aware defenses and the limits of conflict-scoped repair with a scripted agent. `Repo` `EN`
 
 ## Research & Reports
 
